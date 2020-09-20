@@ -1,0 +1,11 @@
+[package]
+name = "cli"
+version = "0.1.0"
+authors = ["Jacob Emil Ulvedal Rosborg <jacob@rosborg.dk>"]
+edition = "2018"
+
+[dependencies]
+clap = { git = "https://github.com/clap-rs/clap/" }
+quill = { path = ".." }
+
+wasmer-runtime = "0.17"
